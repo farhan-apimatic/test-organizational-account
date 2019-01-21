@@ -266,7 +266,7 @@ def get_pet_by_id(pet_id); end
 #### Example Usage
 
 ```ruby
-pet_id = 25
+pet_id = 180
 
 result = pet_controller.get_pet_by_id(pet_id)
 
@@ -304,7 +304,7 @@ def update_pet_with_form(pet_id,
 #### Example Usage
 
 ```ruby
-pet_id = 25
+pet_id = 180
 name = 'name'
 status = 'status'
 
@@ -341,7 +341,7 @@ def delete_pet(pet_id,
 #### Example Usage
 
 ```ruby
-pet_id = 25
+pet_id = 180
 api_key = 'api_key'
 
 pet_controller.delete_pet(pet_id, api_key)
@@ -380,7 +380,7 @@ def upload_file(pet_id,
 #### Example Usage
 
 ```ruby
-pet_id = 25
+pet_id = 180
 additional_metadata = 'additionalMetadata'
 file = Faraday::UploadIO.new('PathToFile', 'application/octet-stream')
 
@@ -471,7 +471,7 @@ def get_order_by_id(order_id); end
 #### Example Usage
 
 ```ruby
-order_id = 25
+order_id = 180
 
 result = store_controller.get_order_by_id(order_id)
 
@@ -505,7 +505,7 @@ def delete_order(order_id); end
 #### Example Usage
 
 ```ruby
-order_id = 25
+order_id = 180
 
 store_controller.delete_order(order_id)
 
